@@ -1,6 +1,6 @@
 Deploy link : https://ornate-melba-172664.netlify.app/
 
-
+i have used both css (normal + tailwind) // i am learning Tailwind css for better 
 
 # React + Vite
 
