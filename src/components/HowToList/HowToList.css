@@ -1,0 +1,79 @@
+.how-to-list {
+    background: url('./unsplash_L51aR1NLGXc.png') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    position: relative;
+    height: 80vh;
+    width: 100;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px ;
+}
+
+.how-to-list h1 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.steps-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.step {
+    text-align: center;
+}
+
+.plane-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.step-number {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.step-text {
+    font-size: 14px;
+}
+
+.footer-text {
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+
+.steps-count::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    right: 10%;
+    height: 2px;
+    background: repeating-linear-gradient(
+        to right,
+        transparent,
+        transparent 10px,
+        white 10px,
+        white 20px
+    );
+}
+.bg-clr{
+    background-color: #111;
+    
+}
+.bg-how{
+    height:80vh ;
+    background-color: #0e050c;
+    width: 80%;
+    margin-left: 10%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px ;
+   
+}
